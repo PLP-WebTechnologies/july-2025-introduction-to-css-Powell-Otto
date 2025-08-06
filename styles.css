@@ -1,0 +1,80 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Header Styling */
+.main-header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-bottom: 4px solid #444;
+}
+
+.main-header h1 {
+  margin: 0;
+}
+
+/* Navigation menu */
+.nav-menu {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10px;
+  display: flex;
+  gap: 15px;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  color: #ccc;
+  font-weight: bold;
+}
+
+.nav-menu li a:hover {
+  color: white;
+}
+
+/* Content Section */
+.content-section {
+  background-color: #fff8dc;
+  margin: 20px;
+  padding: 20px;
+  border: 2px dashed #ccc;
+}
+
+/* Card Box Model */
+.card {
+  background-color: #e6f2ff;
+  margin: 30px;
+  padding: 25px;
+  border: 3px solid #3399ff;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Button Styling */
+.custom-btn {
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  background-color: #3399ff;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.custom-btn:hover {
+  background-color: #007acc;
+}
+
+/* Footer */
+.main-footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
